@@ -69,8 +69,7 @@ int main() {
                 last_object_x = object_x;
                 last_object_y = object_y;
 
-                string position_text = "Robot Position: (" + to_string(x_robot) + " cm, " + to_string(y_robot) + " cm)";
-                putText(frame, position_text, Point(10, 30), FONT_HERSHEY_SIMPLEX, 0.6, Scalar(255, 0, 0), 2);
+                putText(frame, "Robot Position: (" + to_string(x_robot) + " cm, " + to_string(y_robot) + " cm)", Point(10, 30), FONT_HERSHEY_SIMPLEX, 0.6, Scalar(255, 0, 0), 2);
 
                 circle(frame, Point(cx, cy), 5, Scalar(255, 0, 0), -1);
             }
