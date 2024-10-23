@@ -1,0 +1,3 @@
+/home/gilbran/MagangIRIS/OpenCV/Tugas/build/CMakeFiles/rebuild_cache.dir
+/home/gilbran/MagangIRIS/OpenCV/Tugas/build/CMakeFiles/edit_cache.dir
+/home/gilbran/MagangIRIS/OpenCV/Tugas/build/CMakeFiles/run.dir
