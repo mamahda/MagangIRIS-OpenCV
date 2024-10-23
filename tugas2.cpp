@@ -49,8 +49,8 @@ int main() {
                 int cx = int(M.m10 / M.m00);
                 int cy = int(M.m01 / M.m00);
 
-                float object_x = cx / 10.0f;
-                float object_y = cy / 10.0f;
+                float object_x = cx * 10.0f;
+                float object_y = cy * 10.0f;
 
                 if (temp)
                 {
