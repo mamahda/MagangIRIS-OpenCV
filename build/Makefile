@@ -123,32 +123,32 @@ run/fast:
 	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
 .PHONY : run/fast
 
-tugas2.o: tugas2.cpp.o
+tugas1.o: tugas1.cpp.o
 
-.PHONY : tugas2.o
+.PHONY : tugas1.o
 
 # target to build an object file
-tugas2.cpp.o:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/tugas2.cpp.o
-.PHONY : tugas2.cpp.o
+tugas1.cpp.o:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/tugas1.cpp.o
+.PHONY : tugas1.cpp.o
 
-tugas2.i: tugas2.cpp.i
+tugas1.i: tugas1.cpp.i
 
-.PHONY : tugas2.i
+.PHONY : tugas1.i
 
 # target to preprocess a source file
-tugas2.cpp.i:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/tugas2.cpp.i
-.PHONY : tugas2.cpp.i
+tugas1.cpp.i:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/tugas1.cpp.i
+.PHONY : tugas1.cpp.i
 
-tugas2.s: tugas2.cpp.s
+tugas1.s: tugas1.cpp.s
 
-.PHONY : tugas2.s
+.PHONY : tugas1.s
 
 # target to generate assembly for a file
-tugas2.cpp.s:
-	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/tugas2.cpp.s
-.PHONY : tugas2.cpp.s
+tugas1.cpp.s:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/tugas1.cpp.s
+.PHONY : tugas1.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... run"
-	@echo "... tugas2.o"
-	@echo "... tugas2.i"
-	@echo "... tugas2.s"
+	@echo "... tugas1.o"
+	@echo "... tugas1.i"
+	@echo "... tugas1.s"
 .PHONY : help
 
 
