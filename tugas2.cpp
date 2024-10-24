@@ -11,7 +11,7 @@ int last_object_x = 0.0f;
 int last_object_y = 0.0f;
 
 int main() {
-    VideoCapture cap("/home/gilbran/MagangIRIS/OpenCV/tugas/element/robotcamera.avi");
+    VideoCapture cap("/home/gilbran/MagangIRIS/OpenCV/MagangIRIS-OpenCV/element/robotcamera.avi");
     if (!cap.isOpened()) {
         return -1;
     }

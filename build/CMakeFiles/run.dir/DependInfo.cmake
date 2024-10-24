@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gilbran/MagangIRIS/OpenCV/tugas/tugas2.cpp" "/home/gilbran/MagangIRIS/OpenCV/tugas/build/CMakeFiles/run.dir/tugas2.cpp.o"
+  "/home/gilbran/MagangIRIS/OpenCV/MagangIRIS-OpenCV/tugas1.cpp" "/home/gilbran/MagangIRIS/OpenCV/MagangIRIS-OpenCV/build/CMakeFiles/run.dir/tugas1.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
