@@ -6,14 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/home/gilbran/MagangIRIS/OpenCV/MagangIRIS-OpenCV/tugas1.cpp
+/home/gilbran/MagangIRIS/OpenCV/MagangIRIS-OpenCV/tugas2.cpp
 opencv2/opencv.hpp
 -
 iostream
--
-vector
--
-cmath
 -
 
 /usr/include/opencv4/opencv2/calib3d.hpp

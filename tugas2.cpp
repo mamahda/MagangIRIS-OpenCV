@@ -4,11 +4,9 @@
 using namespace cv;
 using namespace std;
 
-int x_robot = 0.0f;
-int y_robot = 0.0f;
-
-int last_object_x = 0.0f;
-int last_object_y = 0.0f;
+int x_robot, y_robot;
+int last_object_x, last_object_y;
+int object_x, object_y;
 
 int main() {
     VideoCapture cap("/home/gilbran/MagangIRIS/OpenCV/MagangIRIS-OpenCV/element/robotcamera.avi");
@@ -49,8 +47,8 @@ int main() {
                 int cx = int(M.m10 / M.m00);
                 int cy = int(M.m01 / M.m00);
 
-                int object_x = cx * 10.0f;
-                int object_y = cy * 10.0f;
+                object_x = cx * 10.0f;
+                object_y = cy * 10.0f;
 
                 if (temp)
                 {
