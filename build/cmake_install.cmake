@@ -1,4 +1,4 @@
-# Install script for directory: /home/gilbran/MagangIRIS/OpenCV/Tugas
+# Install script for directory: /home/gilbran/MagangIRIS/OpenCV/tugas
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/gilbran/MagangIRIS/OpenCV/Tugas/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/gilbran/MagangIRIS/OpenCV/tugas/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

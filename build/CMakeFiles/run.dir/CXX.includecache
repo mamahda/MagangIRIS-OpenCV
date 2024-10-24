@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/gilbran/MagangIRIS/OpenCV/Tugas/tugas2.cpp
+/home/gilbran/MagangIRIS/OpenCV/tugas/tugas2.cpp
 opencv2/opencv.hpp
 -
 iostream

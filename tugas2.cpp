@@ -4,14 +4,14 @@
 using namespace cv;
 using namespace std;
 
-float x_robot = 0.0f;
-float y_robot = 0.0f;
+int x_robot = 0.0f;
+int y_robot = 0.0f;
 
-float last_object_x = 0.0f;
-float last_object_y = 0.0f;
+int last_object_x = 0.0f;
+int last_object_y = 0.0f;
 
 int main() {
-    VideoCapture cap("/home/gilbran/MagangIRIS/OpenCV/Tugas/element/robotcamera.avi");
+    VideoCapture cap("/home/gilbran/MagangIRIS/OpenCV/tugas/element/robotcamera.avi");
     if (!cap.isOpened()) {
         return -1;
     }
@@ -49,8 +49,8 @@ int main() {
                 int cx = int(M.m10 / M.m00);
                 int cy = int(M.m01 / M.m00);
 
-                float object_x = cx * 10.0f;
-                float object_y = cy * 10.0f;
+                int object_x = cx * 10.0f;
+                int object_y = cy * 10.0f;
 
                 if (temp)
                 {
@@ -69,7 +69,7 @@ int main() {
                 last_object_x = object_x;
                 last_object_y = object_y;
 
-                putText(frame, "Robot Position: (" + to_string(x_robot) + " cm, " + to_string(y_robot) + " cm)", Point(10, 30), FONT_HERSHEY_SIMPLEX, 0.6, Scalar(255, 0, 0), 2);
+                putText(frame, "Robot Position: (" + to_string(x_robot) + " cm, " + to_string(y_robot) + " cm)", Point(10, 30), FONT_HERSHEY_SIMPLEX, 0.6, Scalar(255, 255, 255), 2);
 
                 circle(frame, Point(cx, cy), 5, Scalar(255, 0, 0), -1);
             }
