@@ -9,7 +9,7 @@ int last_object_x, last_object_y;
 int object_x, object_y;
 
 int main() {
-    VideoCapture cap("/home/gilbran/MagangIRIS/OpenCV/MagangIRIS-OpenCV/element/robotcamera.avi");
+    VideoCapture cap("/home/gilbran/MagangIRIS/MagangIRIS-OpenCV/src/robotcamera.avi");
     if (!cap.isOpened()) {
         return -1;
     }

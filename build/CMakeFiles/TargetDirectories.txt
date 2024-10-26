@@ -1,3 +1,4 @@
-/home/gilbran/MagangIRIS/OpenCV/MagangIRIS-OpenCV/build/CMakeFiles/rebuild_cache.dir
-/home/gilbran/MagangIRIS/OpenCV/MagangIRIS-OpenCV/build/CMakeFiles/edit_cache.dir
-/home/gilbran/MagangIRIS/OpenCV/MagangIRIS-OpenCV/build/CMakeFiles/run.dir
+/home/gilbran/MagangIRIS/MagangIRIS-OpenCV/build/CMakeFiles/rebuild_cache.dir
+/home/gilbran/MagangIRIS/MagangIRIS-OpenCV/build/CMakeFiles/edit_cache.dir
+/home/gilbran/MagangIRIS/MagangIRIS-OpenCV/build/CMakeFiles/run2.dir
+/home/gilbran/MagangIRIS/MagangIRIS-OpenCV/build/CMakeFiles/run1.dir
